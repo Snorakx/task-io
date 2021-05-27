@@ -1,11 +1,10 @@
-.newsletterContainer{
-    height:30vw;
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.newsletterContainer {
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.newsletterContainer svg{
-    width:200px;
-    height:50px;
+.newsletterContainer svg {
+  width: 200px;
+  height: 50px;
 }

@@ -1,16 +1,22 @@
-.carousel-caption{
-    bottom: auto!important;;
+.carousel-caption {
+  bottom: auto !important;
 }
-h1, h2,h3{
-    color:#000;
+
+h1,
+h2,
+h3 {
+  color: #000;
 }
-p{
-    color:#00000060;
-    font-size:26px;
-    font-weight:700;
+p {
+  color: #00000060;
+  font-size: 26px;
+  font-weight: 700;
 }
-.arrow-down{
-    font-size:25px;
-    height:20vw;
-    width:20vw;
+.arrow-down {
+  font-size: 25px;
+  height: 20vw;
+  width: 20vw;
+}
+.carousel {
+  max-width: 1200px;
 }

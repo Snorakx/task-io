@@ -119,10 +119,22 @@
     flex-direction: column;
   }
 }
-.sliderContainer{
+.sliderContainerDesktop {
+  display: none;
 }
-.wrapper{
-  height:100%;
-  width:100vw;
-  background-color:#EEECED;
+@media (min-width: 1025px) {
+  .sliderContainer {
+    display: none;
+  }
+  .sliderContainerDesktop {
+    display: block;
+    padding: 0rem 10vw;
+    margin: auto;
+    margin-top: 5rem;
+  }
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #eeeced;
 }

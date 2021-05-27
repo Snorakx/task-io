@@ -1,11 +1,8 @@
 import Head from "next/head";
-import FooterComponent from "../components/footer";
 import HeaderComponent from "../components/header";
 import SliderComponent from "../components/slider";
 import NewsletterComponent from "../components/newsletter";
-
 import styles from "../styles/Home.module.css";
-
 
 export default function Home() {
   return (
@@ -24,7 +21,7 @@ export default function Home() {
       <main>
         <HeaderComponent />
         <SliderComponent />
-        <NewsletterComponent/>
+        <NewsletterComponent />
       </main>
     </div>
   );
